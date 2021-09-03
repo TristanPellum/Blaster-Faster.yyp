@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description blends the fire particles
 // You can write your code in this editor
 gpu_set_blendmode(bm_add);
 draw_self();
