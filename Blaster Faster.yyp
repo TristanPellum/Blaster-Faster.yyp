@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"s_button_strip2","path":"sprites/s_button_strip2/s_button_strip2.yy",},"order":0,},
+    {"id":{"name":"obj_enemy_ship_2","path":"objects/obj_enemy_ship_2/obj_enemy_ship_2.yy",},"order":7,},
     {"id":{"name":"create_right_laser","path":"scripts/create_right_laser/create_right_laser.yy",},"order":1,},
     {"id":{"name":"s_enemy_laser","path":"sprites/s_enemy_laser/s_enemy_laser.yy",},"order":1,},
     {"id":{"name":"s_enemy_two","path":"sprites/s_enemy_two/s_enemy_two.yy",},"order":3,},
@@ -14,6 +15,7 @@
     {"id":{"name":"s_ship","path":"sprites/s_ship/s_ship.yy",},"order":8,},
     {"id":{"name":"bounce_off_screen","path":"scripts/bounce_off_screen/bounce_off_screen.yy",},"order":0,},
     {"id":{"name":"s_stars_close","path":"sprites/s_stars_close/s_stars_close.yy",},"order":9,},
+    {"id":{"name":"move_towards_player","path":"scripts/move_towards_player/move_towards_player.yy",},"order":5,},
     {"id":{"name":"s_stars_far","path":"sprites/s_stars_far/s_stars_far.yy",},"order":10,},
     {"id":{"name":"s_armor_strip5","path":"sprites/s_armor_strip5/s_armor_strip5.yy",},"order":11,},
     {"id":{"name":"s_laser","path":"sprites/s_laser/s_laser.yy",},"order":12,},
@@ -27,6 +29,7 @@
     {"id":{"name":"a_powerup","path":"sounds/a_powerup/a_powerup.yy",},"order":7,},
     {"id":{"name":"obj_enemy_ship_1","path":"objects/obj_enemy_ship_1/obj_enemy_ship_1.yy",},"order":4,},
     {"id":{"name":"a_ship_hit","path":"sounds/a_ship_hit/a_ship_hit.yy",},"order":9,},
+    {"id":{"name":"obj_enemy_laser","path":"objects/obj_enemy_laser/obj_enemy_laser.yy",},"order":8,},
     {"id":{"name":"a_enemy_laser","path":"sounds/a_enemy_laser/a_enemy_laser.yy",},"order":11,},
     {"id":{"name":"a_explode","path":"sounds/a_explode/a_explode.yy",},"order":13,},
     {"id":{"name":"obj_explosion_flash","path":"objects/obj_explosion_flash/obj_explosion_flash.yy",},"order":5,},
