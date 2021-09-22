@@ -2,4 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function hit_enemy(){
 
+	instance_destroy();
+	other.armor -= 1;
+
 }
