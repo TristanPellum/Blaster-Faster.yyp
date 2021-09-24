@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "a_enemy_laser",
-  "duration": 0.0,
+  "duration": 0.155193,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

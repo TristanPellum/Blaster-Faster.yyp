@@ -1,4 +1,5 @@
 /// @description Insert description here
+if (room == room0){
 #region draws player ship armor
 
 var _armor_x = 25;
@@ -10,7 +11,6 @@ if (_player_ship != noone){
 }
 draw_sprite(s_armor_strip5, _armor_amount, _armor_x, _armor_y);
 #endregion
-
 #region draw the player score
 
 draw_set_halign(fa_right);
@@ -23,3 +23,10 @@ draw_text(_score_x + 22, _score_y - 9, score);
 draw_set_halign(fa_left);
 
 #endregion
+} else {
+	#region draw the highscore
+	var _score_x = room_width - 8;
+	var _score_y = 8;
+	draw_text(_score_x, _score_y, global.highscore);
+	#endregion
+}
